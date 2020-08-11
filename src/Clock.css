@@ -1,0 +1,91 @@
+body {
+  color: beige;
+  background-color: #1a1b1c;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+button {
+  height: 40px;
+  width: 90px;
+  margin: 10px;
+  background: none;
+  color: beige;
+  border-style: none;
+  border: 0.5px solid beige;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+}
+button:hover {
+  font-size: 17px;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid beige;
+  height: 30px;
+  width: 200px;
+  color: beige;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: 30px;
+  margin: 0;
+}
+
+.externalDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clockBlock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.buttonsBar {
+  display: flex;
+  justify-content: center;
+}
+
+.inputAndStartBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 550px;
+}
+.completeClock {
+  display: flex;
+  justify-content: center;
+}
+.fieldName {
+  margin: 10px;
+  font-size: 14px;
+}
+.progBar {
+  height: 100px;
+  width: 100px;
+}
